@@ -1,20 +1,33 @@
-# 🎯 Number Guessing Game (Streamlit App)
+# 🎯 Guess Game (Streamlit App)
 
-An interactive number guessing game built using Python and Streamlit.
+An interactive Number Guessing Game built using Python and Streamlit.
 
-## 🚀 Features
-- Random number generated between 1 and 100
-- User-friendly UI with background styling
-- Instant feedback (Higher / Lower)
-- Tracks number of attempts
-- Auto-resets after correct guess
-
-## 🖥️ Demo
-User guesses a number → gets hints → wins when correct 🎉
+## 🚀 Live Project
+👉 [https://github.com/souravjha127/Guess-Game](https://gsco3kfy4p5ovrhwgeev5f.streamlit.app/)
 
 ---
 
-## 📦 Tech Stack
+## 🎮 About the Game
+The system generates a random number between 1 and 100.  
+Users try to guess the number with hints like:
+
+- Guess Higher ⬆️
+- Guess Lower ⬇️
+
+The game tracks the number of attempts and resets automatically after a correct guess.
+
+---
+
+## ✨ Features
+- Random number generation (1–100)
+- Real-time feedback (higher/lower)
+- Attempt tracking
+- Clean UI with custom background
+- Auto restart after win
+
+---
+
+## 🛠️ Tech Stack
 - Python
 - Streamlit
 - Random module
@@ -23,7 +36,6 @@ User guesses a number → gets hints → wins when correct 🎉
 
 ## ▶️ How to Run
 
-1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/number-guessing-game.git
-cd number-guessing-game
+pip install streamlit
+streamlit run app.py
